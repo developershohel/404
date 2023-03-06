@@ -5,7 +5,7 @@
 
 .error-404 {
   position: relative;
-  background: #002E53 url(https://cdn.jsdelivr.net/gh/developershohel/global-404@main/assets/img/404/404-bg.webp) no-repeat center;
+  background: #002E53 url(https://cdn.jsdelivr.net/gh/developershohel/404@main/assets/img/404/404-bg.webp) no-repeat center;
   overflow-x: hidden;
 }
 

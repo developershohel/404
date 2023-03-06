@@ -19,14 +19,14 @@ get_header();
         <div class="container">
             <div class="astronaut row">
                 <div class="man-astronaut col-lg-3 col-md-3 col-sm-3">
-                    <img src="https://cdn.jsdelivr.net/gh/developershohel/global-404@main/assets/img/404/man-astronaut.webp" alt="man astronaut">
+                    <img src="https://cdn.jsdelivr.net/gh/developershohel/404@main/assets/img/404/man-astronaut.webp" alt="man astronaut">
                 </div>
                 <div class="text-404 col-lg-6 col-md-6 col-sm-6">
-                    <img src="https://cdn.jsdelivr.net/gh/developershohel/global-404@main/assets/img/404/404.webp" alt="404 error" class="image-404">
-                    <img src="https://cdn.jsdelivr.net/gh/developershohel/global-404@main/assets/img/404/404-astronaut.webp" class="astronaut-404" alt="404-astronaut">
+                    <img src="https://cdn.jsdelivr.net/gh/developershohel/404@main/assets/img/404/404.webp" alt="404 error" class="image-404">
+                    <img src="https://cdn.jsdelivr.net/gh/developershohel/404@main/assets/img/404/404-astronaut.webp" class="astronaut-404" alt="404-astronaut">
                 </div>
                 <div class="woman-astronaut col-lg-3 col-md-3 col-sm-3">
-                    <img src="https://cdn.jsdelivr.net/gh/developershohel/global-404@main/assets/img/404/woman-astronaut.webp" alt="woman astronaut">
+                    <img src="https://cdn.jsdelivr.net/gh/developershohel/404@main/assets/img/404/woman-astronaut.webp" alt="woman astronaut">
                 </div>
             </div>
         </div>
@@ -39,7 +39,7 @@ get_header();
                 homepage</a>
 
             <p class="support-link font-sm">If you think this is an error, contact our support team at <a
-                        href="mailto:support@pronations.com">support@pronations.com</a></p>
+                        href="mailto:<?php echo get_bloginfo('admin_email');?>"><?php echo get_bloginfo('admin_email');?></a></p>
         </div>
     </div>
 </div>
